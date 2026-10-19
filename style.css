@@ -93,7 +93,7 @@ body {
   background: linear-gradient(135deg, #1f2937, #111827);
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
-  padding: 40px;
+  padding: 35px;
   text-align: center;
 }
 
@@ -107,7 +107,7 @@ body {
 }
 
 .hero-banner h1 {
-  font-size: 2.2rem;
+  font-size: 2rem;
   margin: 15px 0 10px;
   color: #fff;
 }
@@ -116,26 +116,27 @@ body {
 
 /* Category Filters */
 .catalog-section { margin-bottom: 60px; }
-.section-title { text-align: center; margin-bottom: 30px; }
-.section-title h2 { font-size: 2rem; color: var(--accent-gold); }
+.section-title { text-align: center; margin-bottom: 25px; }
+.section-title h2 { font-size: 1.8rem; color: var(--accent-gold); }
 .section-title p { color: var(--text-muted); }
 
 .category-filters {
   display: flex;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .cat-btn {
   background: var(--bg-card);
   color: var(--text-main);
   border: 1px solid var(--border-color);
-  padding: 10px 22px;
+  padding: 9px 18px;
   border-radius: 20px;
   cursor: pointer;
   font-weight: 600;
+  font-size: 0.9rem;
   transition: all 0.2s;
 }
 
@@ -148,15 +149,15 @@ body {
 /* Product Grid */
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 25px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
 }
 
 .product-card {
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   border-radius: var(--radius);
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -164,25 +165,26 @@ body {
 }
 
 .product-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-4px);
   box-shadow: var(--shadow);
   border-color: var(--accent-gold);
 }
 
 .product-img {
   width: 100%;
-  height: 180px;
+  height: 170px;
   object-fit: cover;
   border-radius: 10px;
-  margin-bottom: 15px;
+  margin-bottom: 12px;
+  background-color: #21262d;
 }
 
-.product-title { font-size: 1.1rem; margin-bottom: 8px; color: #fff; }
-.product-price { font-size: 1.25rem; font-weight: 800; color: var(--accent-gold); }
+.product-title { font-size: 1rem; margin-bottom: 6px; color: #fff; font-weight: 600; }
+.product-price { font-size: 1.2rem; font-weight: 800; color: var(--accent-gold); }
 .product-status {
   display: inline-block;
-  margin-top: 10px;
-  font-size: 0.85rem;
+  margin-top: 8px;
+  font-size: 0.8rem;
   color: #2ecc71;
   font-weight: 600;
 }
